@@ -62,7 +62,7 @@ export default function App() {
               R
             </div>
             <div>
-              <span className="font-bold text-slate-100 tracking-tight text-lg">trialrun.io</span>
+              <span className="font-bold text-slate-100 tracking-tight text-lg">trialrun.in</span>
               <span className="hidden sm:inline-block ml-2 text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700/60">
                 Showcase Hub
               </span>
@@ -117,16 +117,7 @@ export default function App() {
 
           {/* Action Links & Social Badges */}
           <div className="pt-2 flex flex-wrap items-center gap-3 justify-center sm:justify-start">
-            <a
-              href={holidayPlannerUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl font-semibold bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/30 transition-all hover:-translate-y-0.5"
-            >
-              <Plane className="w-5 h-5" />
-              <span>Try Holiday Planner App</span>
-              <ExternalLink className="w-4 h-4 ml-1 opacity-80" />
-            </a>
+
 
             <a
               href={linkedinProfile}
@@ -255,7 +246,7 @@ export default function App() {
 
                 {/* CTA Buttons */}
                 <div className="pt-4 flex flex-wrap items-center gap-4">
-                  <a
+                  {/*<a
                     href={holidayPlannerUrl}
                     target="_blank"
                     rel="noreferrer"
@@ -263,6 +254,16 @@ export default function App() {
                   >
                     <span>Launch Live Demo</span>
                     <ExternalLink className="w-4 h-4" />
+                  </a>*/}
+                  <a
+                      href={holidayPlannerUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl font-semibold bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/30 transition-all hover:-translate-y-0.5"
+                  >
+                    <Plane className="w-5 h-5" />
+                    <span>Try Holiday Planner App</span>
+                    <ExternalLink className="w-4 h-4 ml-1 opacity-80" />
                   </a>
 
                   <a
