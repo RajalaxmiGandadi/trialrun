@@ -159,7 +159,7 @@ export default function App() {
                 Featured Flagship
               </span>
               <h2 className="text-2xl sm:text-3xl font-bold text-white mt-1">
-                Highlighted Project
+                My Projects
               </h2>
             </div>
             <span className="text-xs px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-medium flex items-center gap-1.5">
